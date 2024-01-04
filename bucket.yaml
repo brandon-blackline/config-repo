@@ -1,0 +1,19 @@
+apiVersion: serviceusage.cnrm.cloud.google.com/v1beta1
+kind: Service
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: "ai-team-project-a125"
+    cnrm.cloud.google.com/deletion-policy: "abandon"
+    cnrm.cloud.google.com/disable-dependent-services: "false"
+  name: service-storage-api
+  namespace: config-control
+spec:
+  resourceID: storage-api.googleapis.com
+
+
+
+
+
+
+
+
