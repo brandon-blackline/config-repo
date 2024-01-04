@@ -9,7 +9,18 @@ metadata:
   namespace: config-control
 spec:
   resourceID: storage-api.googleapis.com
-
+---
+apiVersion: storage.cnrm.cloud.google.com/v1beta1
+kind: StorageBucket
+metadata:
+  annotations:
+    cnrm.cloud.google.com/force-destroy: "false"
+  labels:
+    label-one: "value-one"
+  name: ai-team-project-a125-sample
+  namespace: config-control
+spec:
+  uniformBucketLevelAccess: true
 
 
 
