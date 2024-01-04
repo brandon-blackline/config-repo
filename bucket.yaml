@@ -8,7 +8,7 @@ metadata:
   name: service-storage-api
   namespace: config-control
 spec:
-  resourceID: storage-api.googleapis.com
+  resourceID: storage.googleapis.com
 ---
 apiVersion: storage.cnrm.cloud.google.com/v1beta1
 kind: StorageBucket
