@@ -2,4 +2,4 @@
 
 ![Phil](phil.png "Title")
 
-Place KRM/CRD files in the 'configs' folder
+Place KRM/CRD files in the 'configs' folder - thank you
